@@ -1,0 +1,102 @@
+@import url('https://fontlibrary.org/face/droid-arabic-kufi');
+:root {
+    --mainColor: #116BA7;
+    --subColor: #FBCA90;
+}
+body {
+    font-family: "DroidArabicKufiRegular" !important;
+}
+
+a,a:hover {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.mc-color {
+    color: var(--mainColor);
+}
+.mb-color {
+    background: var(--mainColor);
+}
+
+.sc-color {
+    color: var(--subColor);
+}
+.sb-color {
+    background: var(--subColor);
+}
+
+.btn-custom {
+    background: var(--mainColor) !important;
+    color: #FFF !important;
+}
+
+.bash-breadcrumb {
+    background-color: #F3F8FA;
+}
+.page-title {
+    position: relative;
+}
+.page-title span {
+    border-bottom: 3px solid var(--subColor);
+}
+.ministries .box {
+    text-align: center;
+    box-shadow: 1px 1px 8px #999;
+    min-height: 200px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    display: block;
+}
+.ministries .box:hover {
+    background: aliceblue;
+}
+.ministries .box img{
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    border: 1px solid var(--mainColor);
+}
+.ads img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.services .box {
+    display: block;
+    text-align: center;
+    border: 1px solid var(--mainColor);
+    font-size: 25px;
+    padding: 20px 5px;
+    margin-bottom: 15px;
+}
+
+.services .box:hover{
+    background: var(--mainColor);
+    color: #FFF;
+}
+
+.services aside,
+.details aside {
+    background-color: aliceblue;
+}
+
+.moreRequested a {
+    display: block;
+    border: 1px solid var(--mainColor);
+    padding: 15px 5px;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.moreRequested a:hover {
+    background: var(--mainColor);
+    color: #FFF;
+}
+
+#nav-tabContent > div {
+    background-color: aliceblue;
+    padding: 20px;
+}
